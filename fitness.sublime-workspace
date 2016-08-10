@@ -1,0 +1,258 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n	<head>\n		<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n		<link rel=\"icon\" href=\"graphics/Pushups-16.png\" type=\"image/x-icon\">\n		<!-- For Edge -->\n		<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n		<!-- -->\n		<meta name=\"description\" content=\"Your description goes here\">\n		<meta name=\"keywords\" content=\"your,keywords,goes,here\">\n		<meta name=\"author\" content=\"Your Name\">\n		<meta lang=\"sv\">\n		<!-- Google fonts -->\n		\n		<!-- JQuery -->\n		<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js\"></script>\n		<!-- JavaScript -->\n			<!-- Remote -->\n			<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>\n				<!-- MathJax -->\n		<script type=\"text/javascript\" async src=\"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML\"></script>\n			<!-- Local -->\n			\n		<!-- CSS -->\n			<!-- Loads bootstrap -->\n		<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css\" integrity=\"sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7\" crossorigin=\"anonymous\"> <!-- Has to be loaded first, else overwritten -->\n			<!-- Main CSS -->\n		<link rel=\"stylesheet\" href=\"css/main.css\"> <!-- Find out if i should add a media tag for a separate css for mobile -->\n	<title>Träning</title>\n</head>\n<body  id=\"top\">\n	<div class=\"container\">\n		<nav class=\"navbar navbar-fixed-top navbar-inverse\"> <!-- Main navigation; navbar, static -->\n			<div class=\"container-fluid\">\n				<!-- Brand and toggle get grouped for better mobile display -->\n				<div class=\"navbar-header\">\n      				<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n        				<span class=\"sr-only\">Toggle navigation</span>\n        				<span class=\"icon-bar\"></span> <!-- Dash one -->\n        				<span class=\"icon-bar\"></span> <!-- Dash two -->\n        				<span class=\"icon-bar\"></span> <!-- Dash three -->\n      				</button>\n				</div>\n				<!-- Collect the nav links, forms, and other content for toggling -->\n				<div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n      				<ul class=\"nav navbar-nav navbar-right\"> <!-- Intrapage navigation -->\n      					<li class=\"dropdown\"><a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">Kondition<span class=\"caret\"></span></a>\n          					<ul class=\"dropdown-menu\">\n								      <li><a href=\"#r1p1\">Joggning</a></li>\n								      <li role=\"separator\" class=\"divider\"></li>\n								      <li><a href=\"#r1p2\">Simning</a></li>\n								      <li role=\"separator\" class=\"divider\"></li>\n                      <li><a href=\"#r2p1\">Vandring</a></li>\n                      <li><a href=\"\">Rodd</a></li>\n          					</ul>\n        				</li>\n						<li class=\"dropdown\"><a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">IntrapageNav<span class=\"caret\"></span></a>\n          					<ul class=\"dropdown-menu\">\n          						<li><a href=\"#\">Styrketräning</a></li>\n          						<li role=\"separator\" class=\"divider\"></li>\n                        <li><a href=\"#\">Pull-up bar</a></li>\n                        <li role=\"separator\" class=\"divider\"></li>\n                        <li><a href=\"#\">Skivstång</a></li>\n                        <li role=\"separator\" class=\"divider\"></li>\n                        <li><a href=\"#\">IntrapageNav</a></li>\n          					</ul>\n          				</li>\n          				<li><a href=\"#top\">Go to top</a></li> <!-- Go to top of page -->\n					</ul>\n					<ul class=\"nav navbar-nav navbar-left\"> <!-- Interpage (Intersite) navigation -->\n					    <li><a href=\"index.html\"><img src=\"graphics/Home-32.png\" alt=\"Go to homepage\" title=\"Go to homepage\"></a></li>\n                        <li><a href=\"#\">Other page on site</a></li>\n					</ul>\n				</div>\n				<ol class=\"breadcrumb\"> <!-- The active list item does not invlude a link -->\n				    <li class=\"active\">Homepage</li> <!-- Current page -->\n				</ol>\n			</div>\n		</nav> <!-- Nav ends -->\n		<div class=\"row\"> <!-- Header -->\n			<div class=\"col-md-12\"> <!-- Takes upp 100% row -->\n				<div class=\"page-title\">\n					<h1>Träning</h1>\n						<h3><a href=\"http://www.secretcompass.com\" target=\"_blank\" title=\"Secret compass\">Secret compass and beyond</a></h3>\n				</div>\n			</div>\n		</div> <!-- Header ends -->\n		<div class=\"row\"> <!-- Section divider -->\n			<div class=\"col-md-12\">\n				<hr> <!-- Horizontal rule -->\n			</div>\n		</div>\n		<div class=\"row\"> <!-- Progressbar -->\n		    <h2 class=\"header-section\">Mina framsteg \\o/</h2>\n		    <div class=\"col-md-6\">\n		        <h2>Kondition/uthållighet</h2>\n		          <h3>Joggning</h3>\n		              <h4>SubSubcategory1</h4>\n		              <ul>\n                     <li>Secret compass</li>\n                      <div class=\"progress\">\n                        <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 13%\">\n                          8/60 min\n                          <!-- 5 8 11 14 17 20 23 26 29 32 35 38 41 44 47 50 53 56 59 62 (min) -->\n                          <!-- 8 13 18 23 28 33 38 53 58 63 68 73 78 83 88 93 98 100 (%) -->\n                        </div>\n                      <div>\n                  </ul>\n		              <h4>SubSubcategory2</h4>\n                      <ul>\n                           <li>ListItem1</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                           <li>ListItem2</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                       </ul>\n		          <h3>Simning</h3>\n		              <h4>SubSubcategory1</h4>\n		              <ul>\n                          <li>ListItem1</li>\n                            <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                          <li>ListItem2</li>\n                            <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                      </ul>\n		              <h4>SubSubcategory2</h4>\n		              <ul>\n                        <li>ListItem1</li>\n                            <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                        <li>ListItem2</li>\n                            <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                       </ul>\n              <h3>Vandring</h3>\n                    \n		    </div>\n		    <div class=\"col-md-6\"> <!-- Styrketräning -->\n                <h2>Styrketräning</h2>\n                  <h3>SubSubcategory2</h3>\n                    <h4>SubSubcategory1</h4>\n                        <ul>\n                           <li>ListItem1</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                           <li>ListItem2</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                       </ul>\n                    <h4>SubSubcategory2</h4>\n                        <ul>\n                           <li>ListItem1</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                           <li>ListItem2</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                       </ul>\n                  <h3>SubSubcategory2</h3>\n                    <h4>SubSubcategory1</h4>\n                        <ul>\n                           <li>ListItem1</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                           <li>ListItem2</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                       </ul>\n                    <h4>SubSubcategory2</h4>\n                        <ul>\n                           <li>ListItem1</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                           <li>ListItem2</li>\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0%\n                                    </div>\n                               </div>\n                       </ul>\n            </div>\n		</div>\n		<div class=\"row\"> <!-- Section divider -->\n            <div class=\"col-md-12\">\n                <hr> <!-- Horizontal rule -->\n            </div>\n        </div>\n		<div class=\"row\"> <!-- Kondition row  -->\n			<div class=\"col-md-12\"> <!-- Kondition col-md-12 -->\n				<h2 class=\"header-section\" id=\"r1p1\">Kondition</h2>\n					<p>Programmet är att jogga och sen köra cross-trainer maskinen. Jag börjar med att jogga i 15 min och köra cross-trainern i 30 min. För varje 15 min ökning av jogg-tiden minskar jag cross-trainer tiden med lika mycket så att jag inte kör totalt längre än c:a 60 min. Två träningspass per vecka.\n					 </p>\n					<h4>Jogging</h4>\n					   <p>Utgångspunkten är att jag går i en hastighet av c:a 5 km/h. Uppvärmningshastigheten är satt till 125 % => 6,25 km/h. Joggingshastigheten är satt till 200 % => 10 km/h.</p>\n					   <p>Tanken är att på det första träningspasset för veckan joggar jag ökningstiden efter att jag sprungit förra veckans tid och vid det andra passet så kör jag hela tiden på en gång.</p>\n                <div class=\"row\"> <!-- Vecka 1 -->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 1</h5>\n                               <p>Uppvärmning: 5 min. Jogging: 5 min. Varva ned: 5 min.</p>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 100%\">\n                                        100%\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 2-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 2</h5>\n                               <p>Uppvärmning: 5 min. Jogging: 8 min. Varva ned: 5 min.</p>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 100%\">\n                                        100%\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 3-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 3</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 4-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 4</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 5-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 5</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 6-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 6</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 7-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 7</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 8-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 8</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 9-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 9</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 10-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 10</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 11-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 11</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 12-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 12</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 13-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 13</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 14-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 14</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 15-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 15</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 16-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 16</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 17-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 17</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 18-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 18</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\"> <!-- Vecka 19-->\n                            <div class=\"col-md-6\">\n                                <h5>Vecka 19</h5>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <div class=\"progress\">\n                                    <div class=\"progress-bar progress-bar-success\" role=\"progressbar\"style=\"min-width: 2em; width: 0%\">\n                                        0% <!-- 50 , 100 -->\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n					   <h4>Simning</h4>\n					   <ul>\n					       <li>Vecka 1</li>\n					       <li>Vecka 1</li>\n					   </ul>\n					   <h4>Vandring</h4>\n        </div> <!-- Kondition col-md-12 ends-->\n    </div> <!-- Kondition row ends -->\n    <div class=\"row\"> <!-- Styrketräning row-->\n      <div class=\"col-md-12\"> <!-- Styrketräning col-md-12 -->\n        <h2 class=\"header-section\">Styrketräning</h2>\n           <h4>SubSubcategory1</h4>\n                       <ul>\n                           <li>ListItem1</li>\n                           <li>ListItem2</li>\n                     </ul>\n                       <h4>SubSubcategory2</h4>\n                       <ul>\n                           <li>ListItem1</li>\n                           <li>ListItem2</li>\n                       </ul>\n      </div> <!-- Styrketräning col-md-12 ends -->\n		</div> <!-- Styrketräning row ends-->\n    <div class=\"row\"> <!-- Section divider -->\n			<div class=\"col-md-12\">\n				  <hr> <!-- Horizontal rule -->\n			</div>\n		</div>\n		<div class=\"row\"> <!-- Footer -->\n			<div class=\"col-md-12\">\n				<p class=\"header-section\">Written by Jakob Papirov, Uppsala, Sweden 2016</p>\n			</div>\n		</div> <!-- Footer ends -->\n		<div class=\"row\"> <!-- Section divider -->\n      <div class=\"col-md-12\">\n        <hr> <!-- Horizontal rule -->\n      </div>\n    </div>\n		<div class=\"row\"> <!-- Resources used -->\n      <div class=\"col-md-3\">\n        <h6 class=\"header-section\">Mjukvara</h6>\n        <ul>\n          <li><a href=\"http://www.aptana.com/products/studio3/download.html\">Aptana 3 studio</a></li>\n          <li><a href=\"http://www.sublimetext.com/\">Stublime text 3</a></li>\n        </ul>\n      </div>\n			<div class=\"col-md-3\">\n			  <h6 class=\"header-section\">Design</h6>\n			    <ul>\n            <li><a href=\"https://getbootstrap.com\" target=\"_blank\" title=\"Go to bootstrap website | new tab\">Bootstrap</a> (incl.  \n             <a href=\"https://getbootstrap.com/components/#glyphicons\" target=\"_blank\" title=\"Go to Bootstrap: glyphicons | new tab\">glyphicons</a>)</li>\n          </ul>\n			</div>\n			<div class=\"col-md-3\">\n			  <h6 class=\"header-section\">Icons</h6>\n			     <ul>\n            <li><a href=\"http://www.famfamfam.com/lab/icons/silk/\" target=\"_blank\" title=\"Go to famfamfam icons | new tab\">famfamfam</a></li>\n            <li><a href=\"https://icons8.com/\" target=\"_blank\" title=\"Go to icons8\">icons8</a></li>\n          </ul>\n			</div>\n			<div class=\"col-md-3\">\n			  <h6 class=\"header-section\">Math</h6>\n			   <ul>\n			     <li><a href=\"https://www.mathjax.org/\" target=\"_blank\" title=\"Go to mathjax website | new tab\">Mathjax</a></li>\n           <li><a href=\"http://firemath.info\" target=\"_blank\" title=\"Go to firemath | new tab\">Firemath: Firefox extention</a></li>\n         <ul>\n			</div>\n		</div> <!-- Resources used ends -->\n	</div> <!-- container ends -->\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 28373,
+			"file_write_time": 131149793132111116,
+			"settings":
+			{
+				"buffer_size": 27794,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 590,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/Dropbox/Fritid/Projekt/html/traning",
+		"/E/Dropbox/Fritid/Projekt/html/traning/css",
+		"/E/Dropbox/Fritid/Projekt/html/traning/graphics"
+	],
+	"file_history":
+	[
+		"/C/Users/Jakob/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Jakob/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25348,
+								25348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9219.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fitness.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
