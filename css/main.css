@@ -8,6 +8,43 @@ body {
 	border: 5px solid black;
 	margin: auto;
 }
+.github-box {
+	position: absolute;
+	top: 100px;
+	right: 220px;
+	/*border: 1px solid red;*/
+}
+.github-circle {
+	background-color: #e1d2c5;
+	/*border:  1px solid red; */
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+.github-repo {
+	position: relative;
+	top: 35px;
+	left: 10px;
+	z-index: 1;
+}
+	.github-repo a:hover {
+		background-color: #d2c5e1;
+	}
+.github-site {
+	position: relative;
+	top: 35px;
+	right: 10px;
+	z-index: 1;
+}
+.github a:hover {
+	text-decoration: none;
+	border-color: #f2d5c2;
+	border-bottom: dotted;
+}
+.github-img {
+	padding: 0;
+	margin: 5px;
+}
 .page-title {
 	padding: 0;
 	text-align: center;
@@ -50,9 +87,16 @@ section {
 caption {
 	text-align: center;
 }
-tr, td {
-	padding-right: 5px;
-	padding-left: 5px;
+th, td {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+table {
+	border-spacing: 20px;
+}
+.week-active {
+	font-weight: bold;
+	color: red;
 }
 .secret-compass {
 	font-weight: bold;
