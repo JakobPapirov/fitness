@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link rel="icon" href="../graphics/Pushups-16.png" type="image/x-icon">
+		<!-- For Edge -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- -->
+		<meta name="description" content="Your description goes here">
+		<meta name="keywords" content="your,keywords,goes,here">
+		<meta name="author" content="Your Name">
+		<!-- Google fonts -->
+		
+		<!-- JQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<!-- JavaScript -->
+			<!-- Bootstrap -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+			<!-- Font Awesome -->
+			<script src="https://use.fontawesome.com/c97dac5b89.js"></script>
+			<!-- MathJax -->
+			<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+			<!-- Local -->
+			
+		<!-- CSS -->
+			<!-- Loads bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> <!-- Has to be loaded first, else overwritten -->
+			<!-- Main CSS -->
+		<link rel="stylesheet" href="../css/main.css"> <!-- Find out if i should add a media tag for a separate css for mobile -->
+		<link rel="stylesheet" href="../css/stats.css">
+	<title>Träning | Stats</title>
+</head>
+<body  id="top">
+	<div class="container">
+		<nav class="navbar navbar-fixed-top navbar-inverse"> <!-- Main navigation; navbar, static -->
+			<div class="container-fluid navbar-right">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        		<span class="sr-only">Toggle navigation</span>
+        		<span class="icon-bar"></span> <!-- Dash one -->
+        		<span class="icon-bar"></span> <!-- Dash two -->
+        		<span class="icon-bar"></span> <!-- Dash three -->
+      		</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      		<ul class="nav navbar-nav">
+      				<li><a href="#">Homepage</a></li>
+						<li><a href="#">Placeholder</a></li>
+      			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Placeholder<span class="caret"></span></a>
+          		<ul class="dropdown-menu">
+								<li><a href="#">IntrapageNav</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">IntrapageNav</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">IntrapageNav</a></li>
+								<li role="separator" class="divider"></li>
+			 					<li><a href="#">IntrapageNav</a></li>
+          			<li role="separator" class="divider"></li>
+          			</ul>
+        		</li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Placeholder<span class="caret"></span></a>
+          		<ul class="dropdown-menu">
+          			<li><a href="#">IntrapageNav</a></li>
+          			</ul>
+          	</li>
+          	<li><a href="#top">Go to top</a></li> <!-- Go to top of page -->
+					</ul>
+				</div>
+			</div>
+		</nav> <!-- Nav ends -->
+		<div class="row"> <!-- Header -->
+			<div class="col-md-12"> <!-- Takes upp 100% row -->
+				<div class="page-title">
+					<h1>Träning</h1>
+						<h3>Statistik</h3>
+				</div>
+			</div>
+		</div> <!-- Header ends -->
+		<div class="row"> <!-- Section divider -->
+			<div class="col-md-12">
+				<hr> <!-- Horizontal rule -->
+			</div>
+		</div>
+		<div class="row"> <!-- Breadcumb row -->
+      <div class="col-md-12">
+        <ol class="breadcrumb"> <!-- The active list item does not include a link -->
+          <li><a href="../">Homepage</a></li>
+          <li class="active">Statistik</li> <!-- Current page -->
+        </ol>
+      </div>
+    </div> <!-- Breadcumb row ends -->
+    <div class="row"> <!-- Section divider -->
+			<div class="col-md-12">
+				<hr> <!-- Horizontal rule -->
+			</div>
+		</div>
+		<div class="row between-sections" id="row-1"> <!-- ROW 1 -->
+			<div class="col-md-12">
+				<h2 class="header-section" id="">Översikt</h2>
+					<h3>Sammanställning</h3>
+					<div class="table-responsive">
+						<table class="table table-hover" id="summary">
+							<caption>Sammanställning</caption>
+							<tbody>
+								<thead>
+									<tr>
+										<th>År</th>
+										<th>2011</th>
+										<th>2012</th>
+										<th>2013</th>
+										<th>2014</th>
+										<th>2015</th>
+										<th>2016</th>
+										<th>2017</th>
+									</tr>
+								</thead>
+								<tr>
+									<th>Tränat (antal)</th>
+									<td>67</td>
+									<td>60</td>
+									<td>33</td>
+									<td>44</td>
+									<td>45</td>
+									<td><span class="current" title="Nuvarande">17</span> | <span class="projection" title="Projektion">50</span></td>
+									<td>-</td>
+								</tr>
+								<tr>
+									<th title="2 ggr/vecka => 104 ggr/år">Andel av max (%)</th>
+									<td>64</td>
+									<td>58</td>
+									<td>32</td>
+									<td>42</td>
+									<td>43</td>
+									<td>16</td>
+									<td>-</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+			</div>
+		</div> <!-- ROW 1 ENDS -->
+		<div class="row between-sections" id="row-2"> <!-- ROW 2 -->
+			<div class="col-md-12">
+				<h2 class="header-section">Månadsvis</h2>
+					<h3>rubrik3</h3>
+					<div class="table-responsive">
+						<table class="table table-hover" id="monthly-percent">
+							<caption>Andel tränat (%) månadsvis</caption>
+							<thead>
+								<tr>
+									<th>År</th>
+									<th>2011</th>
+									<th>2012</th>
+									<th>2013</th>
+									<th>2014</th>
+									<th>2015</th>
+									<th>2016</th>
+									<th>2017</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>Januari</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Februari</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Mars</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>April</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Maj</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Juni</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Juli</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Augusti</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>September</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>Oktober</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>November</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th>December</th>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+			</div>
+		</div> <!-- ROW 2 ENDS -->
+		<div class="row between-sections" id="row-3"> <!-- ROW 3 -->
+			<div class="col-md-12">
+				<h2 class="header-section">Projektioner</h2>
+					<h3>rubrik3</h3>
+			</div>
+		</div> <!-- ROW 3 ENDS -->
+		<div class="row" id="row-4"> <!-- ROW 4 -->
+			<div class="col-md-12">
+				<h2 class="header-section" id="">rubrik2</h2>
+					<h3>rubrik3</h3>
+			</div>
+		</div> <!-- ROW 4 ENDS -->
+		<div class="row"> <!-- Section divider -->
+			<div class="col-md-12">
+				<hr> <!-- Horizontal rule -->
+			</div>
+		</div>
+		<footer> <!-- Footer -->
+			<p class="header-section">Written by Jakob Papirov, Uppsala, Sweden 2016</p>
+		</footer> <!-- Footer ends -->
+		<div class="row resources"> <!-- Resources used --> <!-- MAKE SURE TO ADD THE REPOSITORY URL -->
+      <div class="row">
+        <div class="col-md-12">
+          <h5 class="">Resources used</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <a href="jakobpapirov.se/resources#main" target="_blank" title="General"><img src="../graphics/Book Stack-32.png"></a>
+         </div>
+         <div class="col-md-4">
+          <a href="jakobpapirov.se/resources#fitness" target="_blank" title="Specific"><img src="../graphics/Tweezers-32.png"></a>
+         </div>
+         <div col-md-4>
+            <a href="https://github.com/JakobPapirov/fitness" target="_blank">
+              <img src="../graphics/GitHub-32.png" alt="GitHub" title="The repository!"></a>
+         </div>
+       </div>
+    </div> <!-- Resources used ends -->
+	</div> <!-- container ends -->
+</body>
+</html>

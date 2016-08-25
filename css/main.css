@@ -107,6 +107,11 @@ table {
 .kond-pass {
 	font-weight: bold;
 }
-.footer {
-	clear: both;
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+.resources {
+	text-align: center;
 }

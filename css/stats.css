@@ -1,0 +1,33 @@
+.current {
+	text-decoration: underline;
+}
+.projection {
+	font-style: italic;
+}
+table {
+	border-collapse: collapse;
+}
+/* Table summary */
+table#summary th {
+	background-color: #290047;
+	color: white;
+}
+table#summary td {
+	background-color: #7e6690;
+	color: black;
+}
+table#summary tr th {
+	width: 100px;
+}
+/* Table monthly-percent */
+table#monthly-percent th {
+	background-color: #008080;
+	color: black;
+}
+table#monthly-percent td {
+	background-color: #66b2b2;
+	color: black;
+}
+table#monthly-percent tr th {
+
+}
