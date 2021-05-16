@@ -7,3 +7,7 @@ Some parts are in English though. I shoudl really standardise this.
 
 # V. 2.0 
 I'm in the process of re-writing the site in Bootstrap 5.0 (from 3.3.6/7). Quite a lot of functionality isn't done yet. I'm also planning to automate stuff as I'm learning backend (NodeJS) and extend previous functionality.
+
+
+# V. 1.0
+This legacy site can be viewed at http://projects.jakobpapirov.se/fitness
