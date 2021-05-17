@@ -1,117 +1,48 @@
-body {
-	padding-top: 150px; /* To offset the fixed-top navbar */
+
+
+
+body  {
+	background-color: #a3a3a3;
+	/* https://www.color-hex.com/color/666666 */
 }
-.container {
-	max-width: 960px;
-	padding: 30px;
-	border-radius: 10px;
-	border: 5px solid black;
-	margin: auto;
+
+.container-fluid {
+	min-height: 100vh;
 }
-.github-box {
-	position: absolute;
-	top: 100px;
-	right: 220px;
-	/*border: 1px solid red;*/
-}
-.github-circle {
-	background-color: #e1d2c5;
-	/*border:  1px solid red; */
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-}
-.github-repo {
-	position: relative;
-	top: 35px;
-	left: 10px;
-	z-index: 1;
-}
-	.github-repo a:hover {
-		background-color: #d2c5e1;
+
+/* Fixes the navbar to the right; sticky */
+	/* https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+	aside {
+	  height: 100%;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  right: 0;
+	  background-color: #111;
+	  overflow-x: hidden;
+	  padding-top: 20px;
 	}
-.github-site {
-	position: relative;
-	top: 35px;
-	right: 10px;
-	z-index: 1;
+	/* Adds padding to the right and left */
+	section, main, footer {
+		padding: 0px 10px;
+	}
+	/* Fonts of navbar */
+	nav {
+		font-size: 1.2rem;
+	}
+
+.container-fluid {
+	margin-top: 3rem;
 }
-.github a:hover {
-	text-decoration: none;
-	border-color: #f2d5c2;
-	border-bottom: dotted;
+
+.nav-link:hover {
+	background-color: #c4e7f7;
 }
-.github-img {
-	padding: 0;
-	margin: 5px;
-}
-.page-title {
-	padding: 0;
-	text-align: center;
-}
-hr {
-	display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-}
-.header-section {
-	padding: 0;
-	text-align: center;
-}
-.between-sections {
-	border-width: 5px;
-	border-bottom: dashed;
-	border-color: #777;
-	padding: 0;
-}
-.inbetween-sections {
-	border-width: 5px;
-	border-bottom: dotted;
-	border-color: #777;
-}
-ul {
-	list-style: none;
-}
-.progress-text-success {
+
+p {
 	color: black;
-	font-weight: bold;
 }
-section {
-	padding-bottom: 0;
-	margin-bottom: 10px;
-}
-caption {
-	text-align: center;
-}
-th, td {
-	padding-right: 10px;
-	padding-left: 10px;
-}
-table {
-	border-spacing: 20px;
-}
-.week-active {
-	font-weight: bold;
-	color: red;
-}
-.secret-compass {
-	font-weight: bold;
-}
-.header-ref {
-	font-style: italic; 
-}
-.kond-pass {
-	font-weight: bold;
-}
-footer {
-	text-align: center;
-	color: white;
-	background-color: black;
-}
-.resources {
-	text-align: center;
+
+ul, ol {
+	list-style-type: none;
 }
