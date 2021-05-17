@@ -12,4 +12,7 @@ I'm in the process of re-writing the site in Bootstrap 5.0 (from 3.3.6/7). Quite
 # V. 1.0 Branch : V. 1.0
 This legacy site can be viewed at http://projects.jakobpapirov.se/fitness
 
+Tech up to Bootstrap 3.3.6/7, including jQuery 3.3.1. Some NodeJS attempts and an D3.js attempt.
+
 # Legacy Branch : Early version of what became the 1.0 version
+Tech up to Bootstrap 3.3.6/7, including jQuery 
