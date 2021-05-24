@@ -16,11 +16,17 @@ Stats:        MySQl, Sequilze
   Calculations - unsure (nodejs/mathjs, python/vue)
 Macros:       MongoDB (Atlas)
 
+V. 2.0 Started in June 2020, published Jan 01, 2021
+
 
 # V. 1.0 Branch : V. 1.0
 This legacy site can be viewed at http://projects.jakobpapirov.se/fitness
 
 Tech up to Bootstrap 3.3.6/7, including jQuery 3.3.1. Some NodeJS attempts and an D3.js attempt.
 
+Ended in Dec 2020
+
 # Legacy Branch : Early version of what became the 1.0 version
 Tech up to Bootstrap 3.3.6/7, including jQuery 
+
+Project started 2016
