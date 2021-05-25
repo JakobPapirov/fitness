@@ -1,0 +1,35 @@
+<nav class="nav nav-fill nav-pills flex-column">
+
+
+  <!-- Switch statement & ejs
+      https://github.com/mde/ejs/issues/444
+      https://javascript.info/switch
+   -->
+  <% const foo = stuff.active %> 
+
+  <% switch (foo) {
+    case "landing": %>
+  <a class="nav-link active" href="/">Startsida</a>
+  <% break;
+    case "blog": %>
+  <a class="nav-link active" aria-current="page" href="#" tabindex="-1">Blog</a>
+  <% break;
+    case "stats": %>
+  <a class="nav-link active" href="/stats/" tabindex="-1">Statistik</a>
+  <% break;
+    default:
+    break; } %>
+
+  
+
+      <a class="nav-link" href="/diary/">Träningsdagbok</a>
+      <a class="nav-link" href="/programs" tabindex="-1">Program</a>
+      <a class="nav-link disabled" href="/goals" tabindex="-1" aria-disabled="true">Mål</a>
+      
+      <a class="nav-link disabled" href="/achievements" tabindex="-1" aria-disabled="true">Bedrifter</a>
+      <a class="nav-link" href="/stats/" tabindex="-1">Statistik</a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><img src="/_graphics/gb.png" alt="en-GB"></a>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><img src="/_graphics/se.png" alt="sv-Sv"></a>
+      <a class="nav-link" href="/dashboard" tabindex="-1">Dashboard</a>
+  
+</nav>
