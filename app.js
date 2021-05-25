@@ -26,15 +26,22 @@ app.get('/', (req, res) => {
 
 app.get('/sv/', (req, res) => {
 
-	res.render('index.js', { lang: 'Fitness', title: 'Startsida' });
-})
-
-app.get('/en/', (req, res) => {
-
-	res.render('index_en.js', { lang: 'Fitness', title: 'Landing page' });
+	res.render('index', { stuff: 
+		{ title: 'Startsida',
+		active: 'landing' } 
+	});
+	// Can only send in one thing in the object, so have to nest the data inside the main object
 })
 
 app.use('/sv/diary/', diaryRoutes);
+
+// Implement English routes later
+	/*app.get('/en/', (req, res) => {
+
+		res.render('index_en', { lang: 'Fitness', title: 'Landing page' });
+	})*/
+
+//app.use('/en/diary/', diaryRoutes);
 
 // 404 page
 // Has to be at the bottom!
