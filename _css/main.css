@@ -20,7 +20,7 @@ body  {
 	  right: 0;
 	  background-color: #111;
 	  overflow-x: hidden;
-	  padding-top: 20px;
+	  padding-top: 5vh;
 	}
 	/* Adds padding to the right and left */
 	section, main, footer {
@@ -29,6 +29,11 @@ body  {
 	/* Fonts of navbar */
 	nav {
 		font-size: 1.2rem;
+	}
+	/* BS 5 */
+		/* !?"#"! it doesn't override*/ 
+	.nav-link {
+		text-align: left !important;
 	}
 
 .container-fluid {
