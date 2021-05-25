@@ -8,7 +8,7 @@ $(document).ready(function() {
 	footer.append('<p>Written by me, Jakob Papirov <span id="dates"></span></p>');
 
 	// Design of the footer element
-	footer.addClass('col-xl-11', 'col-md-11');
+	//footer.addClass('col-xl-11', 'col-md-11');
 	footer.css('background-color', '#e0e0e0'); // https://www.color-hex.com/color/e0e0e0
 	footer.css('color', 'white');
 	footer.css('text-align', 'center');
