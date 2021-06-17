@@ -8,13 +8,14 @@ Some parts are in English though. I should really standardise this.
 # Master branch : V. 2.0 +
 I'm in the process of re-writing the site in Bootstrap 5.0 (from 3.3.6/7). Quite a lot of functionality isn't done yet. I'm also planning to automate stuff as I'm learning backend (NodeJS) and extend previous functionality.
 
-Plan is
-Backend:      ExpressJS, EJS
-Login:        Passport, bcrypt, MongoDB (Atlas)
-Blog:         MongoDB (Atlas)
-Stats:        MySQl, Sequilze
-  Calculations - unsure (nodejs/mathjs, python/vue)
-Macros:       MongoDB (Atlas)
+##Plan is
+
+* Backend:      ExpressJS, EJS
+* Login:        Passport, bcrypt, MongoDB (Atlas)
+* Blog:         MongoDB (Atlas)
+* Stats:        MySQl, Sequilze
+  * Calculations - unsure (nodejs/mathjs, python/vue)
+* Macros:       MongoDB (Atlas)
 
 V. 2.0 Started in June 2020, published Jan 01, 2021
 
