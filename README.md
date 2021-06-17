@@ -18,6 +18,8 @@ I'm in the process of re-writing the site in Bootstrap 5.0 (from 3.3.6/7). Quite
   * Calculations - unsure (nodejs/mathjs, python/vue)
 * Macros:       MongoDB (Atlas)
 
+If one of these becomes finished before another, I'll update the versioning.
+
 Planned updates
 
 * V. 2.1 = Core site is refactored *Backend* 
@@ -25,6 +27,7 @@ Planned updates
 * V. 2.3 = *blog*, basic functionality
 * V. 2.4 = *login*, basic functionality
 * V. 2.5 = *stats*, basic functionality
+* V. 2.6 = *generator*, basic functionality (plans/workouts)
 
 V. 2.0 Started in June 2020, published Jan 01, 2021
 
