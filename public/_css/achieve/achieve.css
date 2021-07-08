@@ -1,0 +1,7 @@
+.my-accordion-button {
+	/* text-align: center didn't work */
+		display: flex;
+		justify-content: center;
+		flex: 1 0 auto;
+	font-size: 2rem ;
+}

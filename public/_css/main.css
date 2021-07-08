@@ -30,8 +30,7 @@ body  {
 	nav {
 		font-size: 1.2rem;
 	}
-	/* BS 5 */
-		/* !?"#"! it doesn't override*/ 
+	/* Bootstrap 5 */
 	.nav-link {
 		text-align: left !important;
 	}
