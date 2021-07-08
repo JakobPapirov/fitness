@@ -27,10 +27,10 @@ $(document).ready(function() {
 	footer.append('<p>Framework: ' + framework + ' Icons: ' + icons[0] + ' ' + icons[1]  + ' ' +  icons[2] + '</p>');
 
 	// 3rd addition to footer | Social media
-	var youtube = '<a href="https://www.youtube.com/channel/UCHp9cddLUMXjrCOouXb1UCA" target="_blank"><img src="../../_graphics/flaticons-youtube-32.png" title="My YouTube channel" alt="My YouTube channel"></a>';
-	var linkedin = '<a href="https://www.linkedin.com/in/jakobpapirov/?locale=sv_SE"><img src="../../_graphics/icons8-linkedin-32.png" title="My LinkedIn profile" alt="My LinkedIn profile"></a>';
-	var twitter = '<a href="https://twitter.com/JakobPapirov"><img src="../../_graphics/icons8-twitter-32.png" title="My Twitter profile" alt="My Twitter profile"></a>';
-	var instagram = '<a href="https://www.instagram.com/JakobPapirov/"><img src="../../_graphics/icons8-instagram-32.png" title="My Instagram profile" alt="My Instagram profile"></a>';
+	var youtube = '<a href="https://www.youtube.com/channel/UCHp9cddLUMXjrCOouXb1UCA" target="_blank"><img src="/_graphics/flaticons-youtube-32.png" title="My YouTube channel" alt="My YouTube channel"></a>';
+	var linkedin = '<a href="https://www.linkedin.com/in/jakobpapirov/?locale=sv_SE"><img src=/_graphics/icons8-linkedin-32.png" title="My LinkedIn profile" alt="My LinkedIn profile"></a>';
+	var twitter = '<a href="https://twitter.com/JakobPapirov"><img src="/_graphics/icons8-twitter-32.png" title="My Twitter profile" alt="My Twitter profile"></a>';
+	var instagram = '<a href="https://www.instagram.com/JakobPapirov/"><img src=/_graphics/icons8-instagram-32.png" title="My Instagram profile" alt="My Instagram profile"></a>';
 	
 	var socialMedia ='<div class="row">'
 					+  '<div class="col-md-3">'
