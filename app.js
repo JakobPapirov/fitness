@@ -13,13 +13,15 @@
 	const macrosRoutes = require('./routes/macrosRoutes');
 	const programRoutes = require('./routes/programRoutes');
 	const statsRoutes = require('./routes/statsRoutes');
+	const dbStats = require('./components/stats/stats');
 
 // Express app
 	const app = express();
 
 // Site components
-	// Runs Master component
-	console.log('Running Master component.');
+	// Runs Stats component
+	console.log('Testing stats component.');
+	//require('./components/stats/stats.js');
 
 // Register view engine
 	app.set('view engine', 'ejs'); // Requires ejs installed
@@ -28,26 +30,26 @@
 	const PORT = process.env.PORT || 3000;
 	app.listen(PORT, console.log(`Server is running on port ${PORT}`)); // Conf'd in /etc/nginx/sites-available/fitness-dev.jakobpapirov.se
 
-// Middleware & statis files
+// Middleware & static files
 	app.use(express.static('public'))
 	app.use(morgan('dev')); // Requires morgan installed
 
 // Routes (sv)
 	// Landing page route
-		app.get('/', (req, res) => {
+	app.get('/', (req, res) => {
 
-			res.redirect('/sv/');
-		})
+		res.redirect('/sv/');
+	})
 
-		app.get('/sv/', (req, res) => {
+	app.get('/sv/', (req, res) => {
 
-			res.render('index', { stuff: 
-				{ title: 'Startsida',
-				site: 'Fitness',
-				active: 'landing' }
-			});
-			// Can only send in one thing in the object, so have to nest the data inside the main object
-		})
+		res.render('index', { stuff: 
+			{ title: 'Startsida',
+			site: 'Fitness',
+			active: 'landing' }
+		});
+		// Can only send in one thing in the object, so have to nest the data inside the main object
+	})
 
 	// Dagbok
 		app.get('/dagbok/', (req, res) => {
@@ -68,7 +70,16 @@
 
 			res.redirect('/sv/stats/');
 		})
+
 		app.use('/sv/stats/', statsRoutes);
+
+		// MySQl db testing
+		app.get('/db/stats/', (req, res) => {
+
+			res.redirect('/sv/db/stats/');
+		})
+		
+		app.use('/sv/db/stats/', dbStats);
 
 	// Mål
 		// routing doesn't work with "mål"
@@ -125,8 +136,11 @@
 // Has to be at the bottom!
 app.use((req, res) => {
 
-	res.status(404).render('404', { stuff: 
+	// Specify views folder!
+	// https://stackoverflow.com/a/34171560/16139242
+	res.status(404).render( __dirname + '/views/errors/404', { stuff: 
 		{ title: '404',
+		site: 'Fitness',
 		active: 'landing' }
 	});
 })
