@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+
+    <% /* Title tag is included */ %>
+    <%- include('../partials/head.ejs') %>
+
+    <% /* Add page specific CSS and JS below */ %>
+    <!-- Perhaps later -->
+    <!--<link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">-->
+
+  </head>
+<body id="top">
+	<div class="container-fluid">
+
+    <section class="row">
+      <div class="col-xl-11 col-md-11">
+        <!-- Header starts -->
+        <div class="text-center">
+          <h1 class="">Träning</h1>
+            <img 
+        </div>
+        <!-- Header ends -->
+      </div>
+      <aside class="col-xl-1 col-md-1 bg-dark">
+        
+        <%- include('../partials/nav.ejs') %>
+
+      </aside>
+    </section>
+
+    <section class="row">
+      <div class="col-xl-11 col-md-11">
+        <!-- Breadcumb row starts -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../">Startsida</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><%= stuff.title %></li>
+          </ol>
+        </nav>
+        <!-- Breadcum
+    <!-- Startsida starts -->
+    <div class="row" id="Start">
+      <div class="col-xl-11 col-md-11">
+        <h2 class="text-center"><%= stuff.title %></h2>
+      </div>
+    </div>
+    <!-- Startsida ends -->
+
+    <main class="row">
+      <section class="col-xl-11 col-md-11" id="">
+
+        <%- include('../partials/nav_stats_primary.ejs') %>
+
+        <div class="row py-4 my-4">
+          <div class="col">
+          
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Fuga inventore nam soluta voluptatum, beatae nobis nesciunt, dolore deleniti minima cupiditate omnis est aliquam atque, exercitationem sequi necessitatibus aut porro vitae?</p>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+  <!-- container ends -->
+
+  <!-- Footer starts-->
+	<footer>
+	</footer>
+  <!-- Footer ends -->
+
+  <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>

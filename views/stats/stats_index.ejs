@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+
+    <% /* Title tag is included */ %>
+    <%- include('../partials/head.ejs') %>
+
+    <% /* Add page specific CSS and JS below */ %>
+    <!-- Perhaps later -->
+    <!--<link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">-->
+
+  </head>
+<body id="top">
+	<div class="container-fluid">
+
+    <section class="row">
+      <div class="col-xl-11 col-md-11">
+        <!-- Header starts -->
+        <div class="text-center">
+          <h1 class="">Träning</h1>
+            <img src="/_graphics/icons8-combo-chart-100.png" alt="Dagbok" title="Dagbok">
+            <h2>Statistik</h2>
+        </div>
+        <!-- Header ends -->
+      </div>
+      <aside class="col-xl-1 col-md-1 bg-dark nav-primary">
+        
+        <%- include('../partials/nav.ejs') %>
+
+      </aside>
+    </section>
+
+    <section class="row">
+      <div class="col-xl-11 col-md-11">
+        <!-- Breadcumb row starts -->
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../">Startsida</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><%= stuff.title %></li>
+          </ol>
+        </nav>
+        <!-- Breadcumb row ends -->
+      </div>
+    </section>
+
+    <!-- Startsida starts -->
+    <div class="row" id="Start">
+      <div class="col-xl-11 col-md-11">
+        <h2 class="text-center"><%= stuff.title %></h2>
+      </div>
+    </div>
+    <!-- Startsida ends -->
+
+    <main class="row">
+      <section class="col-xl-11 col-md-11" id="">
+
+        <%- include('../partials/nav_stats_primary.ejs') %>
+
+        <!-- -->
+        <div class="row py-4 my-4">
+          <div class="col">
+          <h3 class="text-center bg-info">Träningsstatistik graf</h3>
+
+          </div>
+        </div>
+        <!-- Graf -->
+        <!-- Data -->
+        <div class="row py-4 my-4">
+          <h3 class="text-center bg-info">Träningsstatistik tabeller</h3>
+
+          <!--
+          <div class="col-xl-6 col-md-6 col-sm-12 p-4">
+
+            <ul>
+            <% if (stuff.data.length > 0) { %>
+              <% stuff.data.forEach(data => { %> 
+
+                <li><%= data.year %>: <%= data.days_worked_out %> days worked out</li>
+
+              <% }) %>
+            <% } else { %>
+              <li>Some sort of error; there's no data to show.</li>
+            <% } %>
+            </ul>
+          </div>
+          -->
+          <!-- -->
+          <div class="col p-4">
+
+            <caption>Målet sen 2011 har varit att träna 2 gånger per vecka ~ 104 gånger per år.</caption>
+            <table class="table text-center">
+              <thead>
+                <tr>
+                  <th scope="col">År</th>
+                  <th scope="col">Antal <br /> träningstillfällen</th>
+                  <th scope="col">% av mål</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <% if (stuff.data.length > 0) { %>
+                  <% stuff.data.forEach(data => { %>
+                  <tr scope="row">
+                    <td><%= data.year %></td>
+                    <td><%= data.days_worked_out %></td>
+                    <td><%= Math.round( ( data.days_worked_out / 104) * 100) %></td>
+                  </tr>
+                  <% }) %>
+                <% } else { %>
+                  <tr>
+                    <td colspan="2">Finns inget data att tillgå.</td>
+                  </tr>
+                <% } %>
+              </tbody>
+            </table>
+          </div>
+          <!-- -->
+        <!-- -->
+      </section>
+    </main>
+
+  </div>
+  <!-- container ends -->
+
+  <!-- Footer starts-->
+	<footer>
+	</footer>
+  <!-- Footer ends -->
+
+  <!-- Popper.js first, then Bootstrap JS -->
+    <%- include('../partials/body_js.ejs') %>
+</body>
+</html>
